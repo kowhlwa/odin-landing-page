@@ -1,6 +1,7 @@
 * {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -101,3 +102,26 @@ li {
     border: 2px solid #3882F6;
     border-radius: 10px;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+}
+
+.dumb-quote {
+    font-size: 36px;
+    max-width: 700px;
+    color: #1F2937;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+.author {
+    margin-left: auto;
+    max-width: 700px;
+}
+
+
